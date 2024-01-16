@@ -1,0 +1,64 @@
+@media only screen and (max-width: 576px) {
+  
+    /* Header Navbar CSS*/
+    .header-Container {
+        max-width: 98%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+  .nav .leftLogo {
+        width: 50%;
+    }
+
+  .nav .rightNavigation ul{
+        display: none;
+    }
+
+   .rightNavigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+   .nav .hamburger {
+        display: contents;
+    }
+
+    /*Header Hero Section CSS */
+     .h-Section h2 {
+        font-size: 1.375rem;
+    }
+
+    .h-Section p {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+    }
+
+    /* Header Find Now Container CSS */
+
+  .findNowContainer {
+        flex-direction: column-reverse;
+    }
+
+  .findNowContainer form input[type=text] {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+     .findNowContainer form .when {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-left: .9rem;
+    }
+
+    .findNowContainer form .type {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding-left: .9rem;
+    }
+
+    .findNowContainer form button {
+        width: 100%;
+    }
+
+}
